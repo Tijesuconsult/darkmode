@@ -493,6 +493,7 @@ margin-right: 3rem;
         margin-top: 20px;
         margin-left: 20px;
         width: 100%;
+        margin-right: 20px;
     }
     .aboutUs{
         display: block;
@@ -572,6 +573,7 @@ iframe{
 #feedback div{
     max-width: 100%;
     height: 10rem;
+    margin-right: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -589,7 +591,7 @@ iframe{
 }
 @media (max-width:360px) {
     .sec4{
-        background: radial-gradient(circle,rgb(59, 59, 122) 20%, rgba(13, 13, 14, 0.507) 25%,rgba(105, 97, 179, 0.685) 30%, transparent  30%);
+        background: radial-gradient(circle,rgb(59, 59, 122) 15%, rgba(13, 13, 14, 0.507) 20%,rgba(105, 97, 179, 0.685) 25%, transparent  25%);
     }
     .task div img{
         width: 20rem;
@@ -667,9 +669,9 @@ iframe{
 .fa-bars{
     margin-left: 5rem;
 }
-.sec4{
+/* .sec4{
     background: none;
-}
+} */
 
 #feedback{
     display: block;
@@ -680,6 +682,7 @@ iframe{
 #feedback div{
     max-width: 100%;
     height: 10rem;
+    margin-right: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -722,12 +725,11 @@ iframe{
         margin-top: 25px;
     }
     
-    .feedback{
+    .feedback div{
         max-width: 100%;
+        margin-right: 20px;
     }
-    .sec4{
-        /* background: none; */
-    }
+    
 
     #feedback{
         display: block;
@@ -744,6 +746,7 @@ iframe{
         height: 10rem;
         margin-top: 50px;
         margin-bottom: 50px;
+        margin-right: 20px;
     }
     #feedback p{
         font-size: 14px;
