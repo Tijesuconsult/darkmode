@@ -88,6 +88,7 @@ a{
     position: absolute;
     top: 5px;
 }
+
 }
 
 @media (max-width:304px) {
@@ -361,9 +362,14 @@ text-align: right;
     padding: 10px;
     border-radius: 5px;
 }
+iframe{
+    max-width: 100%;
+}
 /* SECTION 4 RESPONSIVENESS */
 @media (max-width:867px) {
-    
+    /* iframe{
+        max-width: 100%;
+    } */
 }
 .aboutUs{
     display: flex;
@@ -499,6 +505,9 @@ margin-right: 3rem;
     #footer div{
         margin-top: 20px;
     }
+    iframe{
+        max-width: 100%;
+    }
 }
 @media (max-width:400px) {
    .nav{
@@ -547,8 +556,45 @@ margin-right: 3rem;
 .sec4{
     background: none;
 }
+iframe{
+    max-width: 100%;
+}
+#feedback{
+    display: block;
+    /* column-count: calc(3); */
+    justify-content: center;
+    margin-top: 5rem;
+    /* gap: 10rem; */
+}
+#feedback img{
+    width: 30px;
+}
+#feedback div{
+    max-width: 100%;
+    height: 10rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#feedback p{
+    font-size: 16px;
+}
+.sec4{
+    background: radial-gradient(circle,rgb(59, 59, 122) 20%, rgba(13, 13, 14, 0.507) 25%,rgba(105, 97, 179, 0.685) 30%, transparent  30%);
+}
+.task div img{
+    width: 20rem;
+    margin-top: 20px;
+}
+
 }
 @media (max-width:360px) {
+    .sec4{
+        background: radial-gradient(circle,rgb(59, 59, 122) 20%, rgba(13, 13, 14, 0.507) 25%,rgba(105, 97, 179, 0.685) 30%, transparent  30%);
+    }
+    .task div img{
+        width: 20rem;
+        margin-top: 20px;
+    }
    .nav{
     display: flex;
     align-items: center;
@@ -603,7 +649,10 @@ margin-right: 3rem;
     margin-right: 20px;
    }
   .arrow {
-    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #footer p{
     font-size: 14px;
@@ -621,8 +670,35 @@ margin-right: 3rem;
 .sec4{
     background: none;
 }
+
+#feedback{
+    display: block;
+}
+#feedback img{
+    width: 30px;
+}
+#feedback div{
+    max-width: 100%;
+    height: 10rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#feedback p{
+    font-size: 14px;
+}
+iframe{
+    max-width: 100%;
+}
+
 }
 @media  (max-width:304px){
+    .sec4{
+        background: radial-gradient(circle,rgb(59, 59, 122) 5%, rgba(13, 13, 14, 0.507) 10%,rgba(105, 97, 179, 0.685) 15%, transparent  20%);
+    }
+    .task div img{
+        width: 12rem;
+        margin-top: 20px;
+    }
     .nav{
         display: block;
         text-align: center;
@@ -645,13 +721,34 @@ margin-right: 3rem;
     #footer{
         margin-top: 25px;
     }
-    .how{
-        display: none;
-    }
+    
     .feedback{
         max-width: 100%;
     }
     .sec4{
-        background: none;
+        /* background: none; */
+    }
+
+    #feedback{
+        display: block;
+        /* column-count: calc(3); */
+        justify-content: center;
+        margin-top: 5rem;
+        /* gap: 10rem; */
+    }
+    #feedback img{
+        width: 30px;
+    }
+    #feedback div{
+        max-width: 100%;
+        height: 10rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #feedback p{
+        font-size: 14px;
+    }
+    iframe{
+        max-width: 100%;
     }
 }
